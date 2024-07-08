@@ -1,0 +1,543 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --padding-inline-section: 20px;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+header {
+    background-image: url(Images/Background_image.avif);
+    background-size: cover;
+    height: 450px;
+    z-index: 0;
+}
+
+.navbar {
+    display: flex;
+    z-index: 10;
+}
+
+.navbar_sec_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 200px;
+}
+
+.navbar_sec_one i {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.navbar_sec_one a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar_sec_two {
+    display: flex;
+    margin: 30px 0 0 500px;
+}
+
+.navbar_sec_two a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.two {
+    margin-left: 40px;
+}
+
+.three {
+    margin-left: 40px;
+}
+.four {
+    margin-left: 40px;
+}
+
+.mid-section {
+    z-index: 10;
+}
+
+.mid-section img {
+    height: 60px;
+    margin: 50px 0 0 600px;
+} 
+
+.mid-section p {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 40px 0 0 350px;
+}
+
+.mid-sec-searchbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f3f3f3;
+    width: 820px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0 0 300px;
+    z-index: 10;
+}
+
+.first-icon {
+    color: rgb(255,126,139);
+    background-color: #f3f3f3;
+    width: 30px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 10px;
+    margin-right: 0px;
+}
+
+.Search-select {
+    background-color: #f3f3f3;
+    color: rgb(79 79 79);
+    padding-right: 150px;
+    width: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.second-icon {
+    color: #4f4f4f;
+    background-color: #f3f3f3;
+    font-size: 2rem;
+    width: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.third-icon {
+    margin-right: 10px;
+    color: #4f4f4f;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-input {
+    width: 80%;
+    background-color: #f3f3f3;
+    border: none;
+  
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.main-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cards {
+    height: 260px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.186);
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px black;
+    transition: 0.5s ease-out;
+}
+
+.card-img {
+    height: 180px;
+    background-size: cover; 
+    border: 1px solid rgb(232, 232, 232);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cards h6 {
+    color: #363636;
+    font-size: 1.4rem;
+    margin: 10px 0 0 20px;
+}
+
+.cards p {
+    color: #363636;
+    font-size: 1.1rem;
+    margin: 10px 0 0 20px;
+}
+
+.first {
+    margin: 80px 0 0 15px;
+    font-size: 40px;
+}
+
+.second {
+    margin: 7px 0 0 15px;
+    font-size: 20px;
+}
+
+.collection-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.collection-card-img {
+    border: none;
+    border-radius: 6px;
+    height: 330px;
+    width: 270px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.collection-card-img p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 0 20px 15px;
+}
+
+
+.main-bars {
+    margin-top: 110px;
+}
+
+.chhiki {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.818);
+}
+
+.nya {
+    font-size: 35px;
+    color: black;
+}
+
+.bars {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mini-bar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 330px;
+    padding: 10px;
+    border: 0.5px solid #1c1c1c1d;
+    border-radius: 10px;
+}
+
+.mini-bar:hover {
+    box-shadow: rgba(28, 28, 28, 0.08) 3px 3.42623px 2.85246px;
+    transition: 0.5s ease-out;
+}
+
+.ek {
+    font-size: 20px;
+    text-align: start;
+    line-height: 24px;
+    color: #1c1c1c;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.do {
+    font-size: 16px;
+    text-align: start;
+    line-height: 24px;
+    color: #363636;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.arrow {
+    text-align: end;
+    margin-top: 20px;
+}
+
+.see {
+    font-size: 18px;
+    line-height: normal;
+    color: #1c1c1c;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more {
+    margin-left: 80px;
+}
+
+.sign {
+    font-size: 16px;
+}
+
+.main-footer {
+    background-color: #fffbf7;
+    height: 480px;
+    margin-top: 130px;
+}
+
+.mobile-img {
+    height: 280px;
+    margin-top: 130px;
+}
+
+.inner-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.will {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.the {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.671);
+    margin-top: 10px;
+}
+
+.text-line {
+    margin-bottom: 25px;
+}
+
+
+.radio input {
+    height: 19px;
+    width: 19px;
+    accent-color: #EF4F5F;
+}
+
+.radio label {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.671);
+    margin-left: 7px;
+   
+}
+
+.dusra {
+    margin-left: 50px;
+}
+
+.communication {
+    margin-top: 20px;
+}
+
+.communication input {
+    padding: 14px;
+    border-radius: 6px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.351);
+    font-size: 1.1rem;
+}
+
+.communication input:hover {
+    border: 1px solid skyblue;
+}
+
+.placeholder {
+    color: #9C9C9C;
+}
+
+.communication button {
+    padding: 14px;
+    border-radius: 6px;
+    width: 150px;
+    background-color: #EF4F5F;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.communication button:hover {
+    background-color: #f72c40;
+}
+
+.Download {
+    color: #9C9C9C;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.text-part img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    transform: none;
+    margin-top: 30px;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s
+}
+
+.img2 {
+    margin-left: 20px;
+}
+
+.last-part {
+    margin-top: 60px;
+    background-color: #fcfcfc;
+}
+
+.top-heading p {
+    font-size: 30px;
+    color: #363636;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.boxes button {
+    margin-top: 20px;
+    padding: 20px;
+    color: #1c1c1c;
+    font-size: 20px;
+    text-align: start;
+    background-color: #ffffff;
+    border: 1px solid #9C9C9C;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.aman {
+    margin-left: 892px;
+}
+
+.sneha {
+    margin-left: 820px;
+}
+
+.somya {
+    margin-left: 915px;
+}
+
+.pari {
+    margin-left: 938px;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
+
+.sachu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.zomato img{
+    height: 28px;
+    margin-top: 60px;
+}
+
+.india button {
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #9C9C9C;
+    margin-top: 60px;
+
+}
+
+.indian-flag {
+    margin-right: 18px;
+}
+
+.indian-flag img {
+    height: 15px;
+}
+
+.links   {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top {
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.normal {
+    color: #1c1c1c87;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.media a i {
+    color: #1c1c1c;
+    line-height: 16px;
+    font-size: 20px;
+}
+
+.ordinary img {
+    height: 40px;
+}
+
+hr {
+    margin-top: 60px;
+    color: #1c1c1c87;
+}
+
+.final-footer p {
+    color: #4f4f4f;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 17px;
+    height: 100px;
+}
